@@ -4,9 +4,10 @@ import styles from './AddUser.module.css';
 
 const AddUser = props => {
 
+    // const [enteredUsername, setUsername] = useState('')
     const addUserHandler = (event) => {
         event.preventDefault();
-    };
+    }
 
     return (
         <Card className={styles.input}>
